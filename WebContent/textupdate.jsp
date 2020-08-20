@@ -30,7 +30,7 @@
 		<input type="hidden" name="id" value="<%=session.getAttribute("id")%>">
 		<input type="hidden" name="idx" value="<%=idx%>">
 		<p><h3>제목:&nbsp;&nbsp;<input type="text" name="title" value="<%=title%>"></p>
-		<p>내용:</p> 
+		<p>내용22:</p> 
 		<p><textarea name="text" rows="50" cols="50"><%=text%></textarea></p>
 		
 		<input type="submit" value="등록">
